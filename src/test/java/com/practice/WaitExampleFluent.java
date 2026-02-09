@@ -8,7 +8,7 @@ import java.time.Duration;
 import java.util.function.Function;
 
 
-public class FluentWaitExample<W extends SearchContext> {
+public class WaitExampleFluent<W extends SearchContext> {
     public static void main(String[] args) {
         ChromeDriver driver = new ChromeDriver();
         driver.get("https://the-internet.herokuapp.com/dynamic_loading/1");
